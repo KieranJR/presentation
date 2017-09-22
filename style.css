@@ -1,0 +1,15 @@
+body {
+	font-size: 2em;
+	font-family: "Comic Sans MS", cursive, san-serif;
+	color: orange;
+}
+.h1 {
+	font-size: 2em;
+	font-family: 'Oswald', san-serif;	
+	color: green;
+}
+#content {
+	margin: 0 auto;
+	width: 80%;
+	background-image: url("terrific.gif");
+}
