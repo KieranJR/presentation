@@ -1,15 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 	font-size: 2em;
-	font-family: "Comic Sans MS", cursive, san-serif;
-	color: orange;
+	font-family: "Oswald", san-serif;
+	color: rgb(167,219,216);
+	text-align: center;
+	margin: 0;
 }
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .h1 {
 	font-size: 2em;
 	font-family: 'Oswald', san-serif;	
-	color: green;
+	color: rgb(105,210,231);
+	text-align: center;
 }
 #content {
 	margin: 0 auto;
-	width: 80%;
-	background-image: url("terrific.gif");
+	width: 100%;
+}
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
 }
