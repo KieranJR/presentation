@@ -11,12 +11,12 @@ body {
 }
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 10%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(23, 103, 252);
     overflow-x: hidden;
 }
 .sidenav a {
@@ -38,9 +38,6 @@ body {
 }
 #content {
 	margin: 0 auto;
-	width: 100%;
-}
-.content {
-    margin-left: 200px;
-    padding-left: 20px;
+	width: 90%;
+    margin-left: 10%;
 }
